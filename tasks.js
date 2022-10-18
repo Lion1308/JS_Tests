@@ -192,25 +192,29 @@
 //      Розробити програму, яка знаходить і друкує всі слова, перша і остання літери яких збігаються.
 //      split("[ ,.:;-?!]+");
 // 48 - згенерувати html код шахматної дошки та вивести на сторінку
+// ------------------------------------------------------------
+// це пздц...
 // let element = document.createElement("div");
 // element.innerHTML = "<div id='main-block'></div>"
-// element.innerHTML = "<style>#main-block {\n" +
-//     "            width: 400px;\n" +
-//     "            height: 400px;\n" +
-//     "            margin: 30px auto;\n" +
-//     "            border: 1px solid black;\n" +
-//     "        }\n" +
-//     "        .block {\n" +
-//     "            width: 50px;\n" +
-//     "            height: 50px;\n" +
-//     "            float: left;\n" +
-//     "        }\n" +
-//     "        .black {\n" +
-//     "            background: #000;\n" +
-//     "        }\n" +
-//     "        .white {\n" +
-//     "            background: #fff;\n" +
-//     "        }</style>"
+// element.innerHTML = "<style>'
+//     #main-block {
+//     width: 400px;
+//     height: 400px;
+//     margin: 30px auto;
+//     border: 1px solid black;
+//     }
+//     .block {
+//     width: 50px;
+//     height: 50px;
+//     float: left;
+//     }
+//     .black {
+//     background: #000;
+//     }
+//     .white {
+//     background: #fff;
+//     }
+//                     '</style>"
 // function drawChess(){
 //     let mainBlock = document.getElementById('#main-block');
 //     let block;
@@ -227,7 +231,8 @@
 //     }
 //     document.getElementById()
 // }
-// drawChess(); // це пздц
+// drawChess();
+// ------------------------------------------------------------
 // 49 - відсортувати масив за зростанням чи спаданням використовуючи лише цикли.
 // 50 - Згенерувати дві матриці випадкових чисел розмірністю N x N.
 //      Створити третю матрицю, в якій значення з одинаковими індексами матриць будуть просумовані.
